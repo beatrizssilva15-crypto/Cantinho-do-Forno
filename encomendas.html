@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cantinho do Forno - Agendamento</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    
+
+    <!-- Cabeçalho e Navegação Principal -->
+    <header class="cabecalho">
+        <h1 class="titulo-site">Cantinho do Forno</h1>
+        <nav class="menu-navegacao">
+            <a href="index.html" class="link-nav">Início</a> | 
+            <a href="cardapio.html" class="link-nav">Cardápio</a> | 
+            <a href="encomendas.html" class="link-nav">Encomendas</a> | 
+            <a href="agendamento.html" class="link-nav ativo">Agendamento</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal e Formulário -->
+    <main class="conteudo-principal">
+        <section class="secao-agendamento">
+            <h2 class="titulo-secao">Agendamento de Pedidos</h2>
+            <p class="descricao-secao">
+                Preencha os dados abaixo para agendar a retirada ou entrega de seus pães e doces artesanais:
+            </p>
+
+            <form action="#" method="POST" class="formulario-agendamento">
+                
+                <div class="grupo-campo">
+                    <label for="nome" class="rotulo-campo">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" class="campo-texto" placeholder="Digite seu nome completo" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="email" class="rotulo-campo">E-mail:</label>
+                    <input type="email" id="email" name="email" class="campo-texto" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="telefone" class="rotulo-campo">Telefone / WhatsApp:</label>
+                    <input type="tel" id="telefone" name="telefone" class="campo-texto" placeholder="(00) 00000-0000" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="data" class="rotulo-campo">Data da Reserva do Pedido:</label>
+                    <input type="date" id="data" name="data" class="campo-data" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="horario" class="rotulo-campo">Horário da Retirada:</label>
+                    <input type="time" id="horario" name="horario" class="campo-horario" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="observacoes" class="rotulo-campo">Observações do Pedido:</label>
+                    <textarea id="observacoes" name="observacoes" class="campo-area" rows="4" placeholder="Descreva os itens que deseja encomendar..."></textarea>
+                </div>
+
+                <button type="submit" class="botao-enviar">Confirmar Agendamento</button>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p>&copy; 2026 Cantinho do Forno - Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>
