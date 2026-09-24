@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
     /* Seletor de TAG */
   body {
     font-family: Poliana, Manuela, sans-serif;
@@ -41,3 +42,4 @@
         text-align: center;
         padding: 24px 16px;
 }
+
