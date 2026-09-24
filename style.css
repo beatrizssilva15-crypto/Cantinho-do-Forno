@@ -205,4 +205,60 @@ button[type="submit"] {
     cursor: pointer;
     width: 100%;
 }
+     /* DIAGNÓSTICO E CORREÇÃO: SELETOR COMPARTILHADO*/
+
+/* Estilização da Seção do Formulário */
+.agendamento {
+    background-color: aquamarine;
+    border: 1px solid brown;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.agendamento h2 {
+    color: blueviolet;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/* Grupos de Campos */
+.campo-grupo {
+    margin-bottom: 16px;
+}
+
+.campo-grupo label {
+    display: block;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+/* SELETOR COMPARTILHADO: Agrupamento para eliminar a repetição */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid brown;
+    border-radius: 4px;
+    font-family: Poliana, Manuela, sans-serif;
+    color: blue;
+    background-color: #ffffff;
+}
+
+/* Botão de Envio */
+button[type="submit"] {
+    background-color: blueviolet;
+    color: aquamarine;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
 
