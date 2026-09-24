@@ -101,9 +101,7 @@
     border-left: 4px solid  bisque; 
 
 } 
-  /* =========================================================
-   COMMIT 5 — RASCUNHO COM REPETIÇÃO PROPOSITAL (FORMULÁRIO)
-   ========================================================= */
+  /* Rascunho com repetição proposital (FORMULÁRIO) */
 
 /* Estilização da Seção do Formulário */
 .agendamento {
@@ -261,4 +259,180 @@ button[type="submit"] {
     cursor: pointer;
     width: 100%;
 }
+    /* =========================================================
+RESET E ESTILOS GLOBAIS
+========================================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+/* =========================================================
+ELEMENTOS BASE (TAGS)
+========================================================= */
+
+body {
+font-family: Poliana, Manuela, sans-serif;
+color: blue;
+line-height: 1.7;
+}
+
+header {
+background-color: aquamarine;
+color: blueviolet;
+padding: 32px 16px;
+text-align: center;
+}
+
+/* =========================================================
+NAVEGAÇÃO
+========================================================= */
+
+nav {
+background-color: black;
+padding: 34px;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+
+nav a {
+color: blueviolet;
+font-weight: bold;
+}
+
+/* =========================================================
+CONTEÚDO PRINCIPAL
+========================================================= */
+
+main {
+max-width: 960px;
+margin: 0 auto;
+padding: 32px 16px;
+}
+
+footer {
+background-color: aquamarine;
+color: blueviolet;
+text-align: center;
+padding: 24px 16px;
+}
+
+/* =========================================================
+COMPONENTES E CLASSES
+========================================================= */
+
+.cardapio {
+background-color: blue;
+border: 1px solid brown;
+border-radius: 8px;
+padding: 16px;
+margin-bottom: 16px;
+text-align: center;
+}
+
+.foto-cantinho-do-forno {
+background-color: blue;
+background-size: cover;
+background-position: center;
+height: 160px;
+border-radius: 4px;
+margin-bottom: 12px;
+}
+
+.produto-destaque {
+padding: 12px;
+border-radius: 4px;
+font-weight: bold;
+text-align: center;
+margin-bottom: 12px;
+}
+
+.cardapio-especial {
+background-color: blueviolet;
+border-left: 4px solid blueviolet;
+}
+
+.encomendas-premium {
+background-color: aquamarine;
+color: blue;
+border-left: 4px solid bisque;
+}
+   /* =========================================================
+   FORMULÁRIO DE AGENDAMENTO
+   ========================================================= */
+
+.agendamento {
+    background-color: aquamarine;
+    border: 1px solid brown;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.agendamento h2 {
+    color: blueviolet;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+/* =========================================================
+   GRUPOS DE CAMPOS
+   ========================================================= */
+
+.campo-grupo {
+    margin-bottom: 16px;
+}
+
+.campo-grupo label {
+    display: block;
+    color: blue;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+
+/* =========================================================
+   CAMPOS DO FORMULÁRIO
+   ========================================================= */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid brown;
+    border-radius: 4px;
+    font-family: Poliana, Manuela, sans-serif;
+    color: blue;
+    background-color: #ffffff;
+}
+
+
+/* =========================================================
+   BOTÃO DE ENVIO
+   ========================================================= */
+
+button[type="submit"] {
+    background-color: blueviolet;
+    color: aquamarine;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+}
+
+
 
