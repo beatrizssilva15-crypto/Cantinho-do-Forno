@@ -42,4 +42,63 @@
         text-align: center;
         padding: 24px 16px;
 }
+  /* Seletor de Classe */
+
+.cardapio {
+
+     background-color:blue;
+
+     border: 1px solid brown;
+
+     border-radius: 8px;
+
+     padding: 16px;
+
+     margin-bottom: 16px;
+
+     text-align: center;
+}
+   .foto-cantinho-do-forno {
+
+    background-color:blue;
+
+    background-size: cover;
+
+    background-position: center;
+
+    height: 160px;
+
+    border-radius: 4px;
+
+    margin-bottom: 12px;
+
+}
+.produto-destaque {
+
+    padding: 12px;
+
+    border-radius: 4px;
+
+    font-weight: bold;
+
+    text-align: center;
+
+    margin-bottom: 12px;
+}
+  .cardapio-especial {
+
+    background-color: blueviolet;
+
+    border-left: 4px solid blueviolet; 
+
+}
+    .encomendas-premium {
+
+    background-color:aquamarine;
+
+    color:blue;
+
+    border-left: 4px solid  bisque; 
+
+}
 
